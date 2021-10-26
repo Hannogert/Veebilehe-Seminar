@@ -1,0 +1,59 @@
+#tais{
+    color: red;
+}
+#kaas{
+    color: blue;
+}
+#sulg{
+    color: green;
+}
+#div_left{
+    float:left;
+    width:450px;
+}
+#div_right{
+    float:right;
+    width:450px
+}
+body{
+    background-color: rgb(183, 210, 233);
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+ }
+h1{
+	text-align: center;
+    margin-top: auto;
+	color:rgb(35, 139, 199); 
+	font-family: fantasy;
+	font-size: 35px;
+} 
+p {
+	text-align: center;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+} 
+div {
+	text-align: center;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+} 
+ul {
+	display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+}
+img {
+  border: 5px solid rgb(35, 139, 199);
+  width:200px;
+  height:200px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+th{
+    background-color: rgb(35, 139, 199);
+    color: white;
+}

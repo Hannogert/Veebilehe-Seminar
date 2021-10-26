@@ -1,36 +1,7 @@
 <!DOCTYPE html>
 <html lang="et">
-<style>
-body{
-    background-color: rgb(183, 210, 233);
- }
-h1{
-	text-align: center;
-	color:rgb(35, 139, 199); 
-	font-family: fantasy;
-	font-size: 35px;
-} 
-p {
-	text-align: center;
-	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
-} 
-div {
-	text-align: center;
-	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
-} 
-ul {
-	display: inline-block;
-    text-align: left;
-    list-style-position: inside;
-}
-img {
-  border: 5px solid rgb(35, 139, 199);
-}
-
-</style>
 <head>
+<link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <title>Lehe päis</title>
 </head>
@@ -39,34 +10,34 @@ img {
 <h1>Veebileht</h1>
 <p>Tekstilõik</p>
 
-<div>
+<div id="div_left">
 <h1>Eesti keel</h1>
 <p>Siia lisasin teksti, mis tutvustab minu lehte! Lause on paarilauseline.</p>
 <a href="https://et.wikipedia.org/wiki/Lause" target="_blank">Link</a>
 <p></p>
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png"
-style="width:200px;height:200px" alt="Wikipedia"> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Wikipedia_Logo_1.0.png" alt="Wikipedia"> 
 </div>
 
-<div>
-<h1 style="font-size: 30px">Loetelu häälikutest</h1>
+<div id="id_right">
+<h1>Loetelu häälikutest</h1>
 <ul>
 	<li>Täishäälikud</li>
 	<ul>
-		<li style="color: red;">a,e,i,u,o,u,õ,ä,ö,ü</li>
+		<li id="tais">a,e,i,u,o,u,õ,ä,ö,ü</li>
 	</ul>
 	<li>Kaashäälikud</li>
 	<ul>
-		<li style="color: blue;">j,l,m,n,r,v,s,z,h,f,š,ž</li>
+		<li id="kaas">j,l,m,n,r,v,s,z,h,f,š,ž</li>
 	</ul>
 	<li>Sulghäälikud</li>
 	<ul>
-		<li style="color: green;">g,b,d,k,p,t</li>
+		<li id="sulg">g,b,d,k,p,t</li>
 	</ul>
 </ul>
 <p></p>
 <a href="index2.html" target="_blank">Vaata hinnete lehte!</a>
 </div>
+
 
 </body>
 </html>

@@ -1,0 +1,5 @@
+1. Milliseid erinevaid viise leiad, et lehe sisu jagada kahte tulpa?
+Leidsin kaks viisi, kasutades float või luues columns.
+1. Miks peetakse mahukama veebilehe puhul otse HTML-elementide küljes olevat stiili (ingl inline style) halvaks tavaks?
+Lihtsam muuta lehekülje stilli kui selleks tuleb vajadus. Kui on olemas mitu lehekülge siis inline stiil raiskab aega, lihtsalt oma luua CSS
+fail, mis paneb mitmele lehele sama stiili.
